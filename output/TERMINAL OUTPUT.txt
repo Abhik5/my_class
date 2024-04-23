@@ -1,0 +1,59 @@
+Reading input parameters
+ -> matched budget equations by adjusting Omega_Lambda = 0.666566
+Running CLASS version v3.2.3
+Computing background
+ -> non-cold dark matter species with i=1 has m_i = 3.500000e-02 eV (so m_i / omega_i =9.312943e+01 eV)
+ -> ncdm species i=1 sampled with 150 (resp. 150) points for purpose of background (resp. perturbation) integration. In the relativistic limit it gives N_eff = 3.0396
+ -> non-cold dark matter species with i=2 has m_i = 3.862194e+01 eV (so m_i / omega_i =3.998248e+03 eV)
+ -> ncdm species i=2 sampled with 150 (resp. 150) points for purpose of background (resp. perturbation) integration. In the relativistic limit it gives N_eff = 0.0346744
+ -> total N_eff = 3.07428 (summed over ultra-relativistic species, ncdm and dark radiation)
+Chose ndf15 as generic_evolver
+ -> age = 13.489520 Gyr
+ -> conformal age = 13710.624033 Mpc
+ -> radiation/matter equality at z = 2582.454038
+    corresponding to conformal time = 125.238381 Mpc
+ ---------------------------- Budget equation -----------------------
+ ---> Nonrelativistic Species
+-> Bayrons                        Omega = 0.0486773       , omega = 0.0223828
+-> Cold Dark Matter               Omega = 0.261206        , omega = 0.120108
+ ---> Non-Cold Dark Matter Species (incl. massive neutrinos)
+-> Non-Cold Species Nr.      1    Omega = 0.00245197      , omega = 0.00112746
+-> Non-Cold Species Nr.      2    Omega = 0.0210076       , omega = 0.00965972
+ ---> Relativistic Species
+-> Photons                        Omega = 5.37815e-05     , omega = 2.47298e-05
+-> Ultra-relativistic relics      Omega = 3.71799e-05     , omega = 1.70961e-05
+ ---> Other Content
+-> Cosmological Constant          Omega = 0.666566        , omega = 0.3065
+ ---> Total budgets
+ Radiation                        Omega = 9.09615e-05     , omega = 4.18259e-05
+ Non-relativistic                 Omega = 0.333343        , omega = 0.153277
+ - Non-Free-Streaming Matter      Omega = 0.330891        , omega = 0.15215
+ - Non-Cold Dark Matter           Omega = 0.0234596       , omega = 0.0107872
+ Other Content                    Omega = 0.666566        , omega = 0.3065
+ TOTAL                            Omega = 1               , omega = 0.45982
+ --------------------------------------------------------------------
+Computing thermodynamics using HyRec 2020
+ -> with primordial helium mass fraction Y_He = 0.2500
+ -> recombination (maximum of visibility function) at z = 1090.741288
+    corresponding to conformal time = 252.410351 Mpc
+    with comoving sound horizon = 129.744441 Mpc
+    angular diameter distance = 12.327292 Mpc
+    sound horizon angle 100*theta_s = 0.964054
+    Thomson optical depth crosses one at z_* = 1087.552290
+    giving an angle 100*theta_* = 0.966018
+ -> baryon drag stops at z = 1061.780997
+    corresponding to conformal time = 257.698737 Mpc
+    with comoving sound horizon rs = 132.135766 Mpc
+ -> reionization with optical depth = 0.052309
+    corresponding to conformal time = 4915.150869 Mpc
+Computing sources
+Computing primordial spectra (analytic spectrum)
+Computing linear Fourier spectra.
+ -> sigma8=0.660943 for total matter (computed till k = 5.05928 h/Mpc)
+ -> sigma8=0.665892 for baryons+cdm  (computed till k = 5.05928 h/Mpc)
+No non-linear spectra requested. Nonlinear calculations skipped.
+Computing transfers
+Computing unlensed harmonic spectra
+Computing lensed spectra (fast mode)
+No distortions requested. Distortions module skipped.
+Writing output files in output/nonthermal00_...
