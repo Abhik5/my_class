@@ -1,0 +1,39 @@
+install --ubuntu (To install for the first time)
+OR
+just "ubuntu"
+
+cd /mnt/d/class_public-3.2.1 (to access the folder "class....1" which is in the D drive)
+
+./class explanatory.ini (to check that the code works)
+
+sudo apt update
+
+sudo apt install python3 python3-pip (one time job)
+apt install gnuplot (one time job)
+
+*better to do this in virtual environment*
+sudo apt-get install python3-venv
+python3 -m venv myenv
+source myenv/bin/activate (to access myenv)
+
+
+pip3 install numpy (one time job)
+pip3 install cython (one time job)
+pip3 install classy (one time job)
+pip3 install spicy (one time job)
+pip3 install matplotlib (one time job)
+
+
+(To test Python)
+python3
+import numpy
+import cython
+import classy
+from classy import Class
+
+(To run Jupyter)
+*in myenv* pip3 install jupyter (one time job)
+jupyter notebook --allow-root
+
+(for matter power spectrum)
+https://ccl.readthedocs.io/en/v2.0.0/source/installation.html
